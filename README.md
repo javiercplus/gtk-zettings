@@ -8,12 +8,6 @@ Una aplicación ligera para configurar temas GTK e iconos usando GSettings.
 - GTK4 y sus dependencias
 - GNOME/GSettings instalado
 
-### Instalar dependencias en Debian/Ubuntu:
-
-```bash
-sudo apt-get install libgtk-4-dev libglib2.0-dev
-```
-
 ## Compilación
 
 ```bash
