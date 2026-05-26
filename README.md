@@ -1,39 +1,39 @@
-# GUI para GSettings en Zig + GTK4
+# GUI for GSettings in Zig + GTK4
 
-Una aplicación ligera para configurar temas GTK e iconos usando GSettings.
+A lightweight application to configure GTK themes and icons using GSettings.
 
-## Requisitos
+## Requirements
 
-- Zig 0.13.0 o superior
-- GTK4 y sus dependencias
-- GNOME/GSettings instalado
+- Zig 0.13.0 or higher
+- GTK4 and its dependencies
+- GNOME/GSettings installed
 
-## Compilación
+## Compilation
 
 ```bash
 zig build
 ```
 
-## Ejecución
+## Execution
 
 ```bash
 zig build run
 ```
 
-O directamente el binario:
+Or directly the binary:
 
 ```bash
 ./zig-out/bin/gsettings-gui
 ```
 
-## Características
+## Features
 
-- Configurar tema GTK (Adwaita, Adwaita-dark, HighContrast)
-- Configurar tema de iconos (Adwaita, Adwaita-symbolic, hicolor)
-- Interfaz simple y ligera
-- Usa GSettings nativo de GNOME
+- Configure GTK theme (Adwaita, Adwaita-dark, HighContrast)
+- Configure icon theme (Adwaita, Adwaita-symbolic, hicolor)
+- Simple and lightweight interface
+- Uses native GNOME GSettings
 
-## Notas
+## Notes
 
-Esta aplicación modifica la configuración de GNOME a través de GSettings.
-Los cambios se aplican inmediatamente al sistema.
+This application modifies GNOME settings through GSettings.
+Changes are applied to the system immediately.
